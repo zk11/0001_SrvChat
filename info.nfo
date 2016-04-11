@@ -1,0 +1,14 @@
+Pour les notification android/ios : 
+
+var pushover = require('pushover.net');
+ 
+var po = pushover({
+  user: 'user',
+  token: 'token'
+});
+ 
+po.push('message 1');
+po.push('message 2');
+po.push('message 3');
+ 
+po.end();
