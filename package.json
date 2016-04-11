@@ -1,0 +1,13 @@
+{
+  "name": "Sametime",
+  "version": "0.1.0",
+  "dependencies": {
+    "edge": "^5.0.0",
+    "edge-sql": "^0.1.2",
+    "ent": "~0.1.0",
+    "express": "~3.3.4",
+    "socket.io": "~1.2.1"
+  },
+  "author": "jahack",
+  "description": "un vrai sametime"
+}
